@@ -1,19 +1,10 @@
 {
-  "name": "app",
-  "version": "1.0.0",
-  "description": "",
-  "private": true,
-  "scripts": {
-    "build": "webpack",
-    "dev": "webpack-dev-server"
-  },
-  "devDependencies": {
-    "copy-webpack-plugin": "^4.6.0",
-    "webpack": "^4.28.1",
-    "webpack-cli": "^3.2.1",
-    "webpack-dev-server": "^3.1.14"
-  },
   "dependencies": {
-    "web3": "^1.0.0-beta.37"
+    "@openzeppelin/contracts": "^4.8.2",
+    "@truffle/hdwallet-provider": "^2.1.9",
+    "solidity-compiler": "^7.0.1",
+    "truffle": "^5.8.1",
+    "web3": "^1.9.0",
+    "webpack-dev-server": "^4.13.1"
   }
 }
