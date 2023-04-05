@@ -14,7 +14,7 @@ contract StarNotary is ERC721 {
     // Implement Task 1 Add a name and symbol properties
     // name: Is a short name to your token
     // symbol: Is a short string like 'USD' -> 'American Dollar'
-    
+    constructor() ERC721("Nezihe Token", "NST") {}
 
     // mapping the Star with the Owner Address
     mapping(uint256 => Star) public tokenIdToStarInfo;
@@ -56,7 +56,10 @@ contract StarNotary is ERC721 {
 
     // Implement Task 1 lookUptokenIdToStarInfo
     function lookUptokenIdToStarInfo (uint _tokenId) public view returns (string memory) {
-        //1. You should return the Star saved in tokenIdToStarInfo mapping
+        string memory starName = tokenIdToStarInfo[_tokenId].name;
+        require(bytes(starName).length > 0, "There is no STAR with this name!");
+        return starName;
+
     }
 
     // Implement Task 1 Exchange Stars function
