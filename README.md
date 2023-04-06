@@ -2,10 +2,11 @@
 Project 2- Build CryptoStar DApp on Ethereum
 
 ## 1) My ERC-721 Token Name
+    Nezihe Token
 
 ## 2) My ERC-721 Token Symbol
-
-## 3) Version of the Truffle and OpenZeppelin used
+    NST
+## 3) Version of the Truffle and OpenZeppelin used (and others)
     "copy-webpack-plugin": "^11.0.0",
     "webpack": "^5.77.0",
     "webpack-cli": "^5.0.1",
