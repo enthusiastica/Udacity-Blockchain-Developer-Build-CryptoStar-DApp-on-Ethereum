@@ -17,4 +17,5 @@ Project 2- Build CryptoStar DApp on Ethereum
     "truffle": "^5.8.1",
     "web3": "^1.9.0",
 
-## 4) My Token Address on the Rinkeby Network
+## 4) My Token Address on the Goerli Testnet Network
+0xaC384DD9b58Fb4f996F651F97CdB32b3a635d93A
