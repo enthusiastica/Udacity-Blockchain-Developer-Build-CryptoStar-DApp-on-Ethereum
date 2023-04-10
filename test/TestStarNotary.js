@@ -96,8 +96,10 @@ it('lets 2 users exchange stars', async() => {
     const starId2 = 55;
     await instance.createStar('random star', starId1, { from: user1 });
     await instance.createStar('another star', starId2, { from: user2 });
+    
     // 2. Call the exchangeStars functions implemented in the Smart Contract
     await instance.exchangeStars(starId1, starId2, { from: user1 });
+    
     // 3. Verify that the owners changed
     const owner1 = await instance.ownerOf(starId1);
     const owner2 = await instance.ownerOf(starId2);
