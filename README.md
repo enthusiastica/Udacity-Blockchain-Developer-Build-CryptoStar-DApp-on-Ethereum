@@ -18,6 +18,6 @@ Project 2- Build CryptoStar DApp on Ethereum
     "web3": "^1.9.0",
 
 ## 4) My Token Address on the Goerli Testnet Network
-    0xaC384DD9b58Fb4f996F651F97CdB32b3a635d93A
+    0x7206B1A8c855D2D47dD1B124250DD2B05F65A0B0
     
-    https://goerli.etherscan.io/address/0xac384dd9b58fb4f996f651f97cdb32b3a635d93a
+    https://goerli.etherscan.io/address/0x7206b1a8c855d2d47dd1b124250dd2b05f65a0b0
